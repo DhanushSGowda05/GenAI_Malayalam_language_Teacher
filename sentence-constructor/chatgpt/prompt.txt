@@ -27,8 +27,20 @@
 
 ## Sentence Structure
     -do not provide particles in the sentence structure
+    -do not provide the tense or conjugations
+    -remember to consider beginner leel sentence structure
 
-## Clues and Considerations
+    here are some examples of senence structures
+
+    -They were eating rice → [Subject] + [Object] + [Verb ] + [Auxiliary]
+    -She was reading a book → [Subject] + [Object] + [Verb ] + [Auxiliary]
+    -Did you see the dog → [Subject] + [Object] + [Verb] + [Question marker]
+    -Did you go yesterday → [Subject] + [Time] + [Verb] + [Question marker]
+    -They saw a bird → [Subject] + [Object] + [Verb]
+    -We were watching a movie → [Subject] + [Object] + [Verb ] + [Auxiliary]
+    -Did they eat food → [Subject] + [Object] + [Verb] + [Question marker]
+
+    ## Clues and Considerations
     -provide a non-nested bulleted list
     -talk about the vocabulary but try to leave out the malayalam words because the student can refer to the vocabulary table
 
