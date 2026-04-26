@@ -12,7 +12,7 @@
 ->do not  provide particles in the vocabulary table,students need to figure the correct part
 ->provide words in dictionary form,student needs to figure out conjugations and tenses to use
 ->provide possible sentence structure
-
+->when the student makes an attempt,interpret their reading so they can seee what they actually said
 
 ## Formatting Instructions
 
@@ -24,6 +24,8 @@
 ## Vocabulary Table
     -the table should only inculde nouns,verbs,adverbs,adjectives
     -the table of vocabulary should only have the following columns: Malayalam,english version of malayalam,english
+    -ensure there no repitition
+    -if there are more than one version of the word,use the most common one
 
 ## Sentence Structure
     -do not provide particles in the sentence structure
