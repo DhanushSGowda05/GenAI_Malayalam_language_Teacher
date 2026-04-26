@@ -1,0 +1,127 @@
+<examples>
+  <example id="1">
+    <userinput>bears are at the door, did you leave the garbage out?</userinput>
+    <score>4</score>
+    <score_reasons>
+      <reason type="bad">Let the Malayalam word have English letters like "karadi"</reason>
+      <reason type="bad">Threw in conjugations, particles, plural കൾ without checking if you already know those. Beginner can mean "I know the alphabet" or "I know 100 words"</reason>
+      <reason type="bad">Table format is not good</reason>
+    </score_reasons>
+    <assistant_output>
+      <intro>Your English sentence: "Bears are at the door, did you leave the garbage out?" This is actually 2 parts. Let's tackle them one at a time.</intro>
+
+      <part id="1" title="Bears are at the door">
+        <sentence_structure>
+          [Noun - subject] [Noun - location] [Location word] [Verb - "to be" present]
+          Malayalam often puts the verb at the end, and location comes before the verb.
+        </sentence_structure>
+
+        <vocabulary>
+          <word>
+            <malayalam>കരടി</malayalam>
+            <english>bear</english>
+          </word>
+          <word>
+            <malayalam>വാതിൽ</malayalam>
+            <english>door</english>
+          </word>
+          <word>
+            <malayalam>ഉണ്ടാകുക</malayalam>
+            <english>to be / to exist</english>
+          </word>
+          <word>
+            <malayalam>ചവറ്</malayalam>
+            <english>garbage</english>
+          </word>
+          <word>
+            <malayalam>പുറത്ത്</malayalam>
+            <english>outside</english>
+          </word>
+          <word>
+            <malayalam>വെക്കുക</malayalam>
+            <english>to put / to keep / to leave</english>
+          </word>
+        </vocabulary>
+
+        <clues>
+          <clue>"Bears" is plural. In Malayalam, you often add കൾ to make a noun plural.</clue>
+          <clue>"At the door" = door + a location particle. You need to figure out which particle means "at/on/near".</clue>
+          <clue>"Are" comes from the verb ഉണ്ടാകുക. For "there are bears", you'd use the present tense form. Think: how do you say "is/are there"?</clue>
+        </clues>
+      </part>
+
+      <part id="2" title="Did you leave the garbage out?">
+        <sentence_structure>
+          [You] [Noun - object] [Adverb - location] [Verb - past tense] + [Question word/particle]
+        </sentence_structure>
+
+        <vocabulary>
+          <word>
+            <malayalam>നീ</malayalam>
+            <english>you - informal</english>
+          </word>
+          <word>
+            <malayalam>നിങ്ങൾ</malayalam>
+            <english>you - formal/plural</english>
+          </word>
+        </vocabulary>
+
+        <clues>
+          <clue>"Did you leave" = past tense of വെക്കുക. You'll need to conjugate it for past + "you".</clue>
+          <clue>"Out" = പുറത്ത്. In Malayalam, "leave out" becomes "പുറത്ത് വെക്കുക".</clue>
+          <clue>To make a question in Malayalam, you usually add a question particle at the end. It's for yes/no questions, not "wh-" questions.</clue>
+        </clues>
+      </part>
+    </assistant_output>
+  </example>
+
+  <example id="2">
+    <userinput>bears are at the door, did you leave the garbage out?</userinput>
+    <score>7</score>
+    <score_reasons>
+      <reason type="good">Doesn't provide verbose text at the start</reason>
+      <reason type="good">Gives correct sentence structure</reason>
+      <reason type="good">Gives English abbreviations beside Malayalam words</reason>
+      <reason type="bad">Vocabulary table needs to be improved by proper separation</reason>
+    </score_reasons>
+    <assistant_output>
+      <header>Your Sentence: "Bears are at the door, did you leave the garbage out?"</header>
+
+      <vocabulary_table>
+        <word>
+          <malayalam>കരടി</malayalam>
+          <transliteration>karaṭi</transliteration>
+          <english>bear</english>
+        </word>
+        <word>
+          <malayalam>വാതിൽ</malayalam>
+          <transliteration>vātil</transliteration>
+          <english>door</english>
+        </word>
+        <word>
+          <malayalam>മാലിന്യം</malayalam>
+          <transliteration>māliniyam</transliteration>
+          <english>garbage</english>
+        </word>
+        <word>
+          <malayalam>ഇടുക</malayalam>
+          <transliteration>iṭuka</transliteration>
+          <english>to leave / to place</english>
+        </word>
+      </vocabulary_table>
+
+      <sentence_structure>
+        <clause id="1">Subject + Location + Verb</clause>
+        <clause id="2">Subject + Object + Verb (past tense, question form)</clause>
+      </sentence_structure>
+
+      <clues>
+        <clue>Malayalam is SOV (Subject → Object → Verb) — the verb comes at the end</clue>
+        <clue>"Bears" is plural — think about how to make കരടി plural!</clue>
+        <clue>For "at the door", you'll need a location particle after വാതിൽ</clue>
+        <clue>The second sentence is a past tense question — Malayalam questions often use the suffix "ഓ" at the end</clue>
+        <clue>"You" in Malayalam is നീ (informal) or താങ്കൾ (formal)</clue>
+      </clues>
+    </assistant_output>
+  </example>
+</examples>

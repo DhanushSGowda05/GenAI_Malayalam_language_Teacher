@@ -1,0 +1,47 @@
+<guidelines>
+
+  <sentence_structure_rules>
+    <rule>Do not provide particles in the sentence structure</rule>
+    <rule>Do not provide tense or conjugations</rule>
+    <rule>Consider beginner level sentence structure</rule>
+  </sentence_structure_rules>
+
+  <sentence_structure_examples>
+    <example>
+      <english>They were eating rice</english>
+      <structure>[Subject] + [Object] + [Verb] + [Auxiliary]</structure>
+    </example>
+    <example>
+      <english>She was reading a book</english>
+      <structure>[Subject] + [Object] + [Verb] + [Auxiliary]</structure>
+    </example>
+    <example>
+      <english>Did you see the dog</english>
+      <structure>[Subject] + [Object] + [Verb] + [Question marker]</structure>
+    </example>
+    <example>
+      <english>Did you go yesterday</english>
+      <structure>[Subject] + [Time] + [Verb] + [Question marker]</structure>
+    </example>
+    <example>
+      <english>They saw a bird</english>
+      <structure>[Subject] + [Object] + [Verb]</structure>
+    </example>
+    <example>
+      <english>We were watching a movie</english>
+      <structure>[Subject] + [Object] + [Verb] + [Auxiliary]</structure>
+    </example>
+    <example>
+      <english>Did they eat food</english>
+      <structure>[Subject] + [Object] + [Verb] + [Question marker]</structure>
+    </example>
+  </sentence_structure_examples>
+
+  <clues_and_considerations>
+    <format>
+      <rule>Provide a non-nested bulleted list</rule>
+      <rule>Talk about the vocabulary but leave out the Malayalam words since the student can refer to the vocabulary table</rule>
+    </format>
+  </clues_and_considerations>
+
+</guidelines>
